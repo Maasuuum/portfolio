@@ -1,0 +1,44 @@
+/* Common shared styles */
+/* body {
+    @import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Open+Sans&display=swap');
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+.text-primary{
+    color: #cb0505;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+}
+
+.nav-title {
+    color: var(--Dark-01, #131212);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #131212;
+}
