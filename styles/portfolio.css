@@ -14,7 +14,7 @@
 }
 
 .btn-primary{
-    border-radius: 5px;
+    border-radius: 10px;
     background: #FD6E0A;
     border: 0;
     color: white;
@@ -28,6 +28,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
     /* background-color: darkgray; */
 }
 
@@ -50,4 +51,19 @@ nav li {
 nav a{
     text-decoration: none;
     color: #131212;
+}
+
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
