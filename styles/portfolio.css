@@ -21,6 +21,11 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    cursor: pointer;
+    
+}
+.btn-primary:hover{
+    background: rgba(43, 43, 236, 0.718);
 }
 
 .section-title{
@@ -155,7 +160,7 @@ main section{
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(235, 18, 173, 0.06);
+    box-shadow: 10px 10px 50px 10px rgba(235, 18, 174, 0.626);
 }
 
 .skill-description{
@@ -228,3 +233,4 @@ footer{
     border: 0;
     width: 100%;
 }
+
